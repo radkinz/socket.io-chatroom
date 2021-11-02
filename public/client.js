@@ -7,7 +7,7 @@ socket.on('allChats', (chats) => {
 
 	//display chat array
 	for (let i = 0; i < chats.length; i++) {
-		$("#chats").append(chats[i].chat);
+		$("#chats").append("<li>" + chats[i].chat + "</li>");
 	}
 
 });
@@ -23,5 +23,5 @@ $("button").click((event) => {
 
 //receive new chats and append them
 socket.on("newChattoUsers", (msg) => {
-	$("#chats").append(msg);
+	$("#chats").append("<li>" + msg + "</li>");
 });
