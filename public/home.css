@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+html {
+	margin: 0;
+	padding:  0;
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #cfe0ff;
+}
+
+button {
+	padding: 20px;
+}
+
+image {
+	margin-top: 50px;
+}
